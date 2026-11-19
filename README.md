@@ -41,7 +41,7 @@ Pour une nouvelle ville, ajoutez une entrée dans `PLACES` avec sa latitude et s
 
 ## Sources
 
-[dev.events](https://dev.events/EU/FR), [developers-conferences-agenda](https://github.com/scraly/developers-conferences-agenda), [Agenda Tech](https://www.agenda-tech.com/agenda), la [lettre ouverte de l'AFUP](https://lettreouverte.afup.org/#signataires), [FOST Paris](https://apidays.global/fost-events/paris), meetup.com, [Luma](https://luma.com/paris) et les sites des organisateurs. Les contours des régions viennent de [france-geojson](https://github.com/gregoiredavid/france-geojson).
+[dev.events](https://dev.events/EU/FR), [developers.events](https://developers.events/#/2026/calendar) ([dépôt](https://github.com/scraly/developers-conferences-agenda)), [Agenda Tech](https://www.agenda-tech.com/agenda), la [lettre ouverte de l'AFUP](https://lettreouverte.afup.org/#signataires), [FOST Paris](https://apidays.global/fost-events/paris), meetup.com, [Luma](https://luma.com/paris) et les sites des organisateurs. Les contours des régions viennent de [france-geojson](https://github.com/gregoiredavid/france-geojson).
 
 Vérifiez toujours dates et lieux auprès des organisateurs avant de réserver : certaines dates diffèrent d'une source à l'autre et sont signalées sur la fiche de l'événement.
 
@@ -66,6 +66,6 @@ The data sits in the `<script>` of `index.html`, between the `// EVENTS-START` a
 
 ## Sources
 
-[dev.events](https://dev.events/EU/FR), [developers-conferences-agenda](https://github.com/scraly/developers-conferences-agenda), [Agenda Tech](https://www.agenda-tech.com/agenda), the [AFUP open letter](https://lettreouverte.afup.org/#signataires), [FOST Paris](https://apidays.global/fost-events/paris), meetup.com, [Luma](https://luma.com/paris) and organisers' own sites. Region outlines come from [france-geojson](https://github.com/gregoiredavid/france-geojson).
+[dev.events](https://dev.events/EU/FR), [developers.events](https://developers.events/#/2026/calendar) ([dépôt](https://github.com/scraly/developers-conferences-agenda)), [Agenda Tech](https://www.agenda-tech.com/agenda), the [AFUP open letter](https://lettreouverte.afup.org/#signataires), [FOST Paris](https://apidays.global/fost-events/paris), meetup.com, [Luma](https://luma.com/paris) and organisers' own sites. Region outlines come from [france-geojson](https://github.com/gregoiredavid/france-geojson).
 
 Always check dates and venues with the organisers before booking: some dates differ between sources and are flagged on the event card.
