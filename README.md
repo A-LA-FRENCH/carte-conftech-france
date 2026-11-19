@@ -7,7 +7,7 @@ Carte interactive, en français et en anglais, des conférences et meetups tech 
 ## Ce que fait la page
 
 - Une carte de France avec une pastille par ville, un encart pour les lieux parisiens et une rangée de tuiles pour l'outre-mer.
-- Une liste datée, filtrable par thème, mois, lieu, mot-clé et par signataires de la [lettre ouverte de l'AFUP](https://lettreouverte.afup.org/#signataires).
+- Une liste datée, filtrable par format (conférences ou meetups), thème, mois, lieu, mot-clé et par signataires de la [lettre ouverte de l'AFUP](https://lettreouverte.afup.org/#signataires).
 - Les événements terminés passent d'eux-mêmes dans la section « Événements passés », d'après la date du jour.
 - Les conférences co-localisées de la FOST (CNIT Forest, 1er–3 décembre 2026) sont comptées comme des événements indépendants.
 
@@ -31,6 +31,7 @@ Les données sont dans le `<script>` de `index.html`, entre les commentaires `//
 | `vk` | Clé de `VENUES`, pour les événements d'Île-de-France |
 | `v` | Lieu précis, facultatif : `{fr, en}` |
 | `c` | Thèmes parmi `dev`, `ai`, `api`, `cloud`, `green`, `cyber`, `data`, `oss`, `lead`, `eco` |
+| `k` | `"m"` pour un meetup ; absent pour une conférence |
 | `sig` | Nom du signataire de la lettre ouverte AFUP, si l'organisateur en fait partie |
 | `u` | Lien vers l'événement |
 | `d` | Description d'une phrase : `{fr, en}` |
@@ -40,7 +41,7 @@ Pour une nouvelle ville, ajoutez une entrée dans `PLACES` avec sa latitude et s
 
 ## Sources
 
-[dev.events](https://dev.events/EU/FR), [developers-conferences-agenda](https://github.com/scraly/developers-conferences-agenda), [Agenda Tech](https://www.agenda-tech.com/agenda), la [lettre ouverte de l'AFUP](https://lettreouverte.afup.org/#signataires), [FOST Paris](https://apidays.global/fost-events/paris), meetup.com et les sites des organisateurs. Les contours des régions viennent de [france-geojson](https://github.com/gregoiredavid/france-geojson).
+[dev.events](https://dev.events/EU/FR), [developers-conferences-agenda](https://github.com/scraly/developers-conferences-agenda), [Agenda Tech](https://www.agenda-tech.com/agenda), la [lettre ouverte de l'AFUP](https://lettreouverte.afup.org/#signataires), [FOST Paris](https://apidays.global/fost-events/paris), meetup.com, [Luma](https://luma.com/paris) et les sites des organisateurs. Les contours des régions viennent de [france-geojson](https://github.com/gregoiredavid/france-geojson).
 
 Vérifiez toujours dates et lieux auprès des organisateurs avant de réserver : certaines dates diffèrent d'une source à l'autre et sont signalées sur la fiche de l'événement.
 
@@ -53,7 +54,7 @@ An interactive map, in French and English, of tech conferences and meetups in ma
 ## What the page does
 
 - A map of France with one pin per city, an inset for Paris-area venues and a row of tiles for the overseas territories.
-- A dated list you can filter by topic, month, place, keyword and by signatories of the [AFUP open letter](https://lettreouverte.afup.org/#signataires).
+- A dated list you can filter by format (conferences or meetups), topic, month, place, keyword and by signatories of the [AFUP open letter](https://lettreouverte.afup.org/#signataires).
 - Finished events move to the "Past events" section by themselves, based on today's date.
 - The conferences co-located at FOST (CNIT Forest, 1–3 December 2026) are counted as separate events.
 
@@ -65,6 +66,6 @@ The data sits in the `<script>` of `index.html`, between the `// EVENTS-START` a
 
 ## Sources
 
-[dev.events](https://dev.events/EU/FR), [developers-conferences-agenda](https://github.com/scraly/developers-conferences-agenda), [Agenda Tech](https://www.agenda-tech.com/agenda), the [AFUP open letter](https://lettreouverte.afup.org/#signataires), [FOST Paris](https://apidays.global/fost-events/paris), meetup.com and organisers' own sites. Region outlines come from [france-geojson](https://github.com/gregoiredavid/france-geojson).
+[dev.events](https://dev.events/EU/FR), [developers-conferences-agenda](https://github.com/scraly/developers-conferences-agenda), [Agenda Tech](https://www.agenda-tech.com/agenda), the [AFUP open letter](https://lettreouverte.afup.org/#signataires), [FOST Paris](https://apidays.global/fost-events/paris), meetup.com, [Luma](https://luma.com/paris) and organisers' own sites. Region outlines come from [france-geojson](https://github.com/gregoiredavid/france-geojson).
 
 Always check dates and venues with the organisers before booking: some dates differ between sources and are flagged on the event card.
